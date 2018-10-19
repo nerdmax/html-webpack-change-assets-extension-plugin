@@ -1,12 +1,18 @@
 # Change assets extension plugin for the HTML Webpack Plugin
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/nerdmax/html-webpack-change-assets-extension-plugin.svg)](https://greenkeeper.io/)
-
 [![NPM Version][npm-image]][npm-url]
 [![License Stats][npm-license]][npm-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 [![Github stars][github-stars]][github-url]
 [![Github issues][github-issues]][github-issues-url]
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![Build Status](https://travis-ci.org/nerdmax/html-webpack-change-assets-extension-plugin.svg?branch=master)](https://travis-ci.org/nerdmax/html-webpack-change-assets-extension-plugin)
+[![Coverage Status](https://coveralls.io/repos/github/nerdmax/html-webpack-change-assets-extension-plugin/badge.svg?branch=master)](https://coveralls.io/github/nerdmax/html-webpack-change-assets-extension-plugin?branch=master)
+
+<!-- [![Dev Dependencies](https://david-dm.org/alexjoverm/typescript-library-starter/dev-status.svg)](https://david-dm.org/alexjoverm/typescript-library-starter?type=dev) -->
+
+[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg)](https://paypal.me/nerdmax)
 
 <!-- [![Build Status][travis-image]][travis-url] -->
 
