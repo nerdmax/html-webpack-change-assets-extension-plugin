@@ -12,7 +12,7 @@
   "author": "Max <mrliucan@foxmail.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/nerdmax/html-webpack-change-assets-extension-plugin.git"
   },
   "license": "MIT",
   "engines": {
