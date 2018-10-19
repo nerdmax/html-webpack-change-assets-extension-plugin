@@ -1,5 +1,7 @@
 # Change assets extension plugin for the HTML Webpack Plugin
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nerdmax/html-webpack-change-assets-extension-plugin.svg)](https://greenkeeper.io/)
+
 [![NPM Version][npm-image]][npm-url]
 [![License Stats][npm-license]][npm-url]
 [![Downloads Stats][npm-downloads]][npm-url]
