@@ -1,6 +1,6 @@
 {
   "name": "html-webpack-change-assets-extension-plugin",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "",
   "keywords": [],
   "main": "dist/html-webpack-change-assets-extension-plugin.umd.js",
