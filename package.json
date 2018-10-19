@@ -1,6 +1,6 @@
 {
   "name": "html-webpack-change-assets-extension-plugin",
-  "version": "0.0.2",
+  "version": "0.0.0-development",
   "description": "",
   "keywords": [],
   "main": "dist/html-webpack-change-assets-extension-plugin.umd.js",
@@ -31,7 +31,10 @@
     "commit": "git-cz",
     "semantic-release": "semantic-release",
     "semantic-release-prepare": "ts-node tools/semantic-release-prepare",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "prepush": "npm run test:prod && npm run build",
+    "commitmsg": "commitlint -E HUSKY_GIT_PARAMS",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "lint-staged": {
     "{src,test}/**/*.ts": [
@@ -111,7 +114,7 @@
     "rollup-plugin-node-resolve": "^3.4.0",
     "rollup-plugin-sourcemaps": "^0.4.2",
     "rollup-plugin-typescript2": "^0.17.0",
-    "semantic-release": "^15.9.16",
+    "semantic-release": "^15.10.3",
     "ts-jest": "^23.10.2",
     "ts-node": "^7.0.1",
     "tslint": "^5.11.0",
@@ -119,7 +122,8 @@
     "tslint-config-standard": "^8.0.1",
     "typedoc": "^0.13.0",
     "typescript": "^3.0.3",
-    "webpack": "^4.21.0"
+    "webpack": "^4.21.0",
+    "travis-deploy-once": "^5.0.9"
   },
   "peerDependencies": {
     "html-webpack-plugin": "^3.2.0",
