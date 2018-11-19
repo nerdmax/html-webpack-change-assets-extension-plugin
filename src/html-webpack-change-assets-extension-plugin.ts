@@ -1,3 +1,5 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+
 export default class HtmlWebpackChangeAssetsExtensionPlugin {
   options: object
 
@@ -7,7 +9,20 @@ export default class HtmlWebpackChangeAssetsExtensionPlugin {
 
   apply(compiler: any) {
     compiler.hooks.compilation.tap('HtmlWebpackChangeAssetsExtensionPlugin', (compilation: any) => {
-      compilation.hooks.htmlWebpackPluginBeforeHtmlProcessing.tapAsync(
+      let beforeGenerationHook
+      if (compilation.hooks.htmlWebpackPluginBeforeHtmlGeneration) {
+        // HtmlWebpackPlugin 3
+        const { hooks } = compilation
+        beforeGenerationHook = hooks.htmlWebpackPluginBeforeHtmlGeneration
+      } else if (HtmlWebpackPlugin.version === 4) {
+        // HtmlWebpackPlugin >= 4
+        const hooks = HtmlWebpackPlugin.getHooks(compilation)
+        beforeGenerationHook = hooks.beforeAssetTagGeneration
+      } else {
+        return
+      }
+
+      beforeGenerationHook.tapAsync(
         'HtmlWebpackChangeAssetsExtensionPlugin',
         (data: any, cb: Function) => {
           // Skip if the plugin configuration didn't set `jsExtension`
