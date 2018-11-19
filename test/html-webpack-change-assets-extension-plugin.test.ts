@@ -1,6 +1,5 @@
 const path = require('path')
 const fs = require('fs')
-const MemoryFileSystem = require('memory-fs')
 const webpack = require('webpack')
 const rimraf = require('rimraf')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
@@ -8,11 +7,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 import HtmlWebpackChangeAssetsExtensionPlugin from '../src/html-webpack-change-assets-extension-plugin'
 
 const OUTPUT_DIR = path.join(__dirname, './dist')
-console.log(OUTPUT_DIR)
 
-/**
- * Dummy test
- */
 describe('HtmlWebpackChangeAssetsExtensionPlugin', () => {
   beforeEach(function(done) {
     rimraf(OUTPUT_DIR, done)
