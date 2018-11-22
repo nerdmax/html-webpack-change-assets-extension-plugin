@@ -29,8 +29,10 @@
     "build": "tsc --module commonjs && rollup -c rollup.config.ts && typedoc --out docs --target es6 --theme minimal --mode file src",
     "start": "rollup -c rollup.config.ts -w",
     "test": "jest",
+    "test:htmlWebpackPlugin4": "yarn add 'html-webpack-plugin@^4.0.0-beta.4' && yarn test --coverageDirectory='coverage-HtmlWebpackPlugin4'",
+    "test:htmlWebpackPlugin3": "yarn add 'html-webpack-plugin@^3.2.0 || ^4.0.0-beta.4' && yarn test --coverageDirectory='coverage-HtmlWebpackPlugin3'",
     "test:watch": "jest --watch",
-    "test:prod": "npm run lint && npm run test -- --coverage --no-cache",
+    "test:prod": "yarn run lint && yarn run test:htmlWebpackPlugin4 && yarn run test:htmlWebpackPlugin3",
     "deploy-docs": "ts-node tools/gh-pages-publish",
     "report-coverage": "cat ./coverage/lcov.info | coveralls",
     "commit": "git-cz",
@@ -101,7 +103,7 @@
     "coveralls": "^3.0.2",
     "cross-env": "^5.2.0",
     "cz-conventional-changelog": "^2.1.0",
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0 || ^4.0.0-beta.4",
     "husky": "^1.0.1",
     "jest": "^23.6.0",
     "jest-config": "^23.6.0",
@@ -130,7 +132,7 @@
     "travis-deploy-once": "^5.0.9"
   },
   "peerDependencies": {
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0 || ^4.0.0-beta.4",
     "webpack": "^4.21.0"
   }
 }
