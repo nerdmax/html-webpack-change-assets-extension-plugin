@@ -18,8 +18,6 @@ export default class HtmlWebpackChangeAssetsExtensionPlugin {
         // HtmlWebpackPlugin >= 4
         const hooks = HtmlWebpackPlugin.getHooks(compilation)
         beforeGenerationHook = hooks.beforeAssetTagGeneration
-      } else {
-        return
       }
 
       beforeGenerationHook.tapAsync(
