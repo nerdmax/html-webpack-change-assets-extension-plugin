@@ -116,6 +116,8 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
+| [<img src="https://avatars3.githubusercontent.com/u/18550349?v=4" width="100px;"/><br /><sub><b>Max</b></sub>](https://github.com/nerdmax)<br />[💻](https://github.com/nerdmax/html-webpack-change-assets-extension-plugin/commits?author=nerdmax "Code") [📖](https://github.com/nerdmax/html-webpack-change-assets-extension-plugin/commits?author=nerdmax "Documentation") [🚇](#infra-nerdmax "Infrastructure (Hosting, Build-Tools, etc)") [⚠️](https://github.com/nerdmax/html-webpack-change-assets-extension-plugin/commits?author=nerdmax "Tests") |
+| :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
