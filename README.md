@@ -3,6 +3,7 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/nerdmax/html-webpack-change-assets-extension-plugin.svg)](https://greenkeeper.io/)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 [![NPM Version][npm-image]][npm-url]
 [![License Stats][npm-license]][npm-url]
@@ -24,6 +25,7 @@
   - [Installation](#installation)
   - [Basic Usage](#basic-usage)
   - [Contributing](#contributing)
+  - [Contributors](#contributors)
 
 ## Installation
 
@@ -107,3 +109,13 @@ plugins: [
 [travis-url]: https://travis-ci.org/dbader/node-html-webpack-change-assets-extension-plugin
 [npm-io]: https://nodei.co/npm/html-webpack-change-assets-extension-plugin.png?downloads=true&downloadRank=true&stars=true
 [wiki]: https://github.com/nerdmax/html-webpack-change-assets-extension-plugin/wiki
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
