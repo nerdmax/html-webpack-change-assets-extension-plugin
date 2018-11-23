@@ -25,8 +25,8 @@
   },
   "scripts": {
     "lint": "tslint  --project tsconfig.json -t codeFrame 'src/**/*.ts' 'test/**/*.ts'",
-    "prebuild": "rimraf dist",
-    "build": "tsc --module commonjs && rollup -c rollup.config.ts && typedoc --out docs --target es6 --theme minimal --mode file src",
+    "prebuild": "rimraf dist docs",
+    "build": "tsc --module commonjs && rollup -c rollup.config.ts",
     "start": "rollup -c rollup.config.ts -w",
     "test": "jest",
     "test:htmlWebpackPlugin4": "yarn add 'html-webpack-plugin@^4.0.0-beta.4' && yarn test --coverageDirectory='coverage-HtmlWebpackPlugin4'",
