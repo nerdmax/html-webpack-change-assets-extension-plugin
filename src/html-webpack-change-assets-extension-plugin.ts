@@ -25,7 +25,7 @@ export default class HtmlWebpackChangeAssetsExtensionPlugin {
         (data: any, cb: Function) => {
           // Skip if the plugin configuration didn't set `jsExtension`
           if (!data.plugin.options.jsExtension) {
-            return cb(null)
+            return cb(null, data)
           }
           const jsExtension = data.plugin.options.jsExtension
           const tempArray = data.assets.js
