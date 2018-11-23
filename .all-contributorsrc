@@ -20,6 +20,17 @@
         "infra",
         "test"
       ]
+    },
+    {
+      "login": "garyvh2",
+      "name": "Gary Valverde Hampton",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/21265830?v=4",
+      "profile": "https://github.com/garyvh2",
+      "contributions": [
+        "bug",
+        "ideas",
+        "question"
+      ]
     }
   ]
 }
