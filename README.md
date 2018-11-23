@@ -8,7 +8,7 @@
 [![Github issues][github-issues]][github-issues-url]
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Build Status](https://travis-ci.org/nerdmax/html-webpack-change-assets-extension-plugin.svg?branch=master)](https://travis-ci.org/nerdmax/html-webpack-change-assets-extension-plugin)
-[![Coverage Status](https://coveralls.io/repos/github/nerdmax/html-webpack-change-assets-extension-plugin/badge.svg?branch=master)](https://coveralls.io/github/nerdmax/html-webpack-change-assets-extension-plugin?branch=master)
+[![codecov](https://codecov.io/gh/nerdmax/html-webpack-change-assets-extension-plugin/branch/master/graph/badge.svg)](https://codecov.io/gh/nerdmax/html-webpack-change-assets-extension-plugin)
 [![Dev Dependencies](https://david-dm.org/nerdmax/html-webpack-change-assets-extension-plugin.svg)](https://david-dm.org/nerdmax/html-webpack-change-assets-extension-plugin?type=dev)
 [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg)](https://paypal.me/nerdmax)
 
