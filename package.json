@@ -37,6 +37,7 @@
     "format": "yarn prettier --write",
     "format:ci": "yarn prettier --list-different",
     "lint": "tslint  --project tsconfig.json -t codeFrame 'src/**/*.ts' 'test/**/*.ts'",
+    "prepublishOnly": "npm run test && npm run build",
     "report-coverage": "cat ./coverage/lcov.info | coveralls",
     "semantic-release": "semantic-release",
     "semantic-release-prepare": "ts-node tools/semantic-release-prepare",
