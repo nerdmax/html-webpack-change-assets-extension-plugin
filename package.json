@@ -147,5 +147,8 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "dependencies": {
+    "@sentry/node": "^4.5.3"
   }
 }
