@@ -149,6 +149,6 @@
     ]
   },
   "dependencies": {
-    "@sentry/node": "^4.5.3"
+    "@sentry/node": "^5.0.0"
   }
 }
