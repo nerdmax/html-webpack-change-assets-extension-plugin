@@ -1,6 +1,4 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const Sentry = require('@sentry/node')
-Sentry.init({ dsn: 'https://4663e0a6977d4607bcf70001a3761ac1@sentry.io/1384573' })
 
 export default class HtmlWebpackChangeAssetsExtensionPlugin {
   options: object
