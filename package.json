@@ -106,7 +106,7 @@
     "husky": "^2.0.0",
     "jest": "^24.8.0",
     "jest-config": "^24.8.0",
-    "lint-staged": "^8.0.0",
+    "lint-staged": "^9.2.1",
     "lodash.camelcase": "^4.3.0",
     "memory-fs": "^0.4.1",
     "prettier": "^1.14.3",
