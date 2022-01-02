@@ -29,9 +29,7 @@
     "check-ci": "yarn check-lint && yarn test:prod && yarn check-build",
     "check-lint": "yarn format:ci && yarn type-check && yarn lint",
     "check-build": "yarn build && yarn build:doc",
-    "precommit": "lint-staged",
     "commit": "git-cz",
-    "commitmsg": "commitlint -E HUSKY_GIT_PARAMS",
     "contributors:add": "all-contributors add",
     "contributors:check": "all-contributors check",
     "contributors:generate": "all-contributors generate",
@@ -149,5 +147,11 @@
       "git add"
     ]
   },
-  "dependencies": {}
+  "dependencies": {},
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  }
 }
