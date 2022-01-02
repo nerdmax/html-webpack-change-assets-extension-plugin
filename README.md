@@ -124,9 +124,18 @@ Feel free to make any improvements or changes. I'll add you to the contributors 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-| [<img src="https://avatars3.githubusercontent.com/u/18550349?v=4" width="100px;"/><br /><sub><b>Max</b></sub>](https://github.com/nerdmax)<br />[💻](https://github.com/nerdmax/html-webpack-change-assets-extension-plugin/commits?author=nerdmax "Code") [📖](https://github.com/nerdmax/html-webpack-change-assets-extension-plugin/commits?author=nerdmax "Documentation") [🚇](#infra-nerdmax "Infrastructure (Hosting, Build-Tools, etc)") [⚠️](https://github.com/nerdmax/html-webpack-change-assets-extension-plugin/commits?author=nerdmax "Tests") | [<img src="https://avatars1.githubusercontent.com/u/21265830?v=4" width="100px;"/><br /><sub><b>Gary Valverde Hampton</b></sub>](https://github.com/garyvh2)<br />[🐛](https://github.com/nerdmax/html-webpack-change-assets-extension-plugin/issues?q=author%3Agaryvh2 "Bug reports") [🤔](#ideas-garyvh2 "Ideas, Planning, & Feedback") [💬](#question-garyvh2 "Answering Questions") |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/nerdmax"><img src="https://avatars3.githubusercontent.com/u/18550349?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Max</b></sub></a><br /><a href="https://github.com/nerdmax/html-webpack-change-assets-extension-plugin/commits?author=nerdmax" title="Code">💻</a> <a href="https://github.com/nerdmax/html-webpack-change-assets-extension-plugin/commits?author=nerdmax" title="Documentation">📖</a> <a href="#infra-nerdmax" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/nerdmax/html-webpack-change-assets-extension-plugin/commits?author=nerdmax" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://github.com/garyvh2"><img src="https://avatars1.githubusercontent.com/u/21265830?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gary Valverde Hampton</b></sub></a><br /><a href="https://github.com/nerdmax/html-webpack-change-assets-extension-plugin/issues?q=author%3Agaryvh2" title="Bug reports">🐛</a> <a href="#ideas-garyvh2" title="Ideas, Planning, & Feedback">🤔</a> <a href="#question-garyvh2" title="Answering Questions">💬</a></td>
+    <td align="center"><a href="https://github.com/mayukh-ms"><img src="https://avatars.githubusercontent.com/u/60102067?v=4?s=100" width="100px;" alt=""/><br /><sub><b>mayukh-ms</b></sub></a><br /><a href="https://github.com/nerdmax/html-webpack-change-assets-extension-plugin/commits?author=mayukh-ms" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
