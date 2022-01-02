@@ -14,7 +14,7 @@ export default class HtmlWebpackChangeAssetsExtensionPlugin {
         // HtmlWebpackPlugin 3
         const { hooks } = compilation
         beforeGenerationHook = hooks.htmlWebpackPluginBeforeHtmlGeneration
-      } else if (HtmlWebpackPlugin.version === 4) {
+      } else if (HtmlWebpackPlugin.version >= 4) {
         // HtmlWebpackPlugin >= 4
         const hooks = HtmlWebpackPlugin.getHooks(compilation)
         beforeGenerationHook = hooks.beforeAssetTagGeneration
