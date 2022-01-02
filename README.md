@@ -21,12 +21,12 @@
 
 [![nodei.co][npm-io]][npm-url]
 
-- [Change assets extension plugin for the HTML Webpack Plugin](#change-assets-extension-plugin-for-the-html-webpack-plugin)
-  - [Requirements](#requirements)
-  - [Installation](#installation)
-  - [Basic Usage](#basic-usage)
-  - [Contributing](#contributing)
-  - [Contributors](#contributors)
+* [Change assets extension plugin for the HTML Webpack Plugin](#change-assets-extension-plugin-for-the-html-webpack-plugin)
+  * [Requirements](#requirements)
+  * [Installation](#installation)
+  * [Basic Usage](#basic-usage)
+  * [Contributing](#contributing)
+  * [Contributors](#contributors)
 
 ## Requirements
 
@@ -37,7 +37,7 @@ This module requires a minimum of Node v6.9.0 and Webpack v4.0.0.
 Install the plugin with npm:
 
 ```shell
-$ npm install --save-dev html-webpack-change-assets-extension-plugin
+npm install --save-dev html-webpack-change-assets-extension-plugin
 ```
 
 ## Basic Usage
@@ -94,11 +94,15 @@ plugins: [
 
 ## Contributing
 
+Feel free to make any improvements or changes. I'll add you to the contributors list below. :)
+
 1. Fork it (<https://github.com/nerdmax/html-webpack-change-assets-extension-plugin/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
+2. Create your feature branch. (`git checkout -b feature/fooBar`)
+3. Make some changes.
+4. State your changes. (`git add .`)
+5. Commit your changes (`yarn commit`). NOTE: This repo is following the [conventional commits](https://www.conventionalcommits.org/), and `yarn commit` is the easiest way to construct the commit message.
+6. Push to the branch. (`git push origin feature/fooBar`)
+7. Create a new Pull Request.
 
 <!-- Markdown link & img dfn's -->
 
@@ -123,6 +127,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 <!-- prettier-ignore -->
 | [<img src="https://avatars3.githubusercontent.com/u/18550349?v=4" width="100px;"/><br /><sub><b>Max</b></sub>](https://github.com/nerdmax)<br />[💻](https://github.com/nerdmax/html-webpack-change-assets-extension-plugin/commits?author=nerdmax "Code") [📖](https://github.com/nerdmax/html-webpack-change-assets-extension-plugin/commits?author=nerdmax "Documentation") [🚇](#infra-nerdmax "Infrastructure (Hosting, Build-Tools, etc)") [⚠️](https://github.com/nerdmax/html-webpack-change-assets-extension-plugin/commits?author=nerdmax "Tests") | [<img src="https://avatars1.githubusercontent.com/u/21265830?v=4" width="100px;"/><br /><sub><b>Gary Valverde Hampton</b></sub>](https://github.com/garyvh2)<br />[🐛](https://github.com/nerdmax/html-webpack-change-assets-extension-plugin/issues?q=author%3Agaryvh2 "Bug reports") [🤔](#ideas-garyvh2 "Ideas, Planning, & Feedback") [💬](#question-garyvh2 "Answering Questions") |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
