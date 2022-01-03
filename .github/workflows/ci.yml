@@ -1,0 +1,46 @@
+name: ci
+
+on: [push]
+
+jobs:
+  check:
+    name: Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16.13.1'
+          cache: 'yarn'
+      - run: yarn
+      - name: Check Lint
+        run: yarn check-lint
+      - name: Check Test
+        run: yarn test:prod
+      - name: Update codecov
+        run: |
+          curl -Os https://uploader.codecov.io/latest/linux/codecov
+          chmod +x codecov
+          ./codecov
+      - name: Check Build
+        run: yarn check-build
+
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    needs: [check]
+    if: github.ref == 'refs/heads/master'
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16.13.1'
+          cache: 'yarn'
+      - run: yarn
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: yarn run semantic-release
+      - name: Deploy Docs
+        run: yarn build:doc && yarn run deploy-docs
