@@ -43,9 +43,9 @@
     "semantic-release-prepare": "ts-node tools/semantic-release-prepare",
     "start": "rollup -c rollup.config.ts -w",
     "test": "jest",
-    "test:htmlWebpackPlugin3": "yarn add 'html-webpack-plugin@^3.2.0 || ^4.0.0-beta.4' && yarn test --coverageDirectory='coverage-HtmlWebpackPlugin3'",
-    "test:htmlWebpackPlugin4": "yarn add 'html-webpack-plugin@^4.0.0-beta.4' && yarn test --coverageDirectory='coverage-HtmlWebpackPlugin4'",
-    "test:prod": "yarn run test:htmlWebpackPlugin4 && yarn run test:htmlWebpackPlugin3",
+    "test:htmlWebpackPlugin3": "yarn add 'html-webpack-plugin@^3.2.0' && yarn test --coverageDirectory='coverage-HtmlWebpackPlugin3'",
+    "test:htmlWebpackPlugin4": "yarn add 'html-webpack-plugin@^4.0.0' && yarn test --coverageDirectory='coverage-HtmlWebpackPlugin4'",
+    "test:prod": "yarn run test:htmlWebpackPlugin3 && yarn run test:htmlWebpackPlugin4",
     "test:watch": "jest --watch",
     "travis-deploy-once": "travis-deploy-once",
     "prettier": "prettier '**/*.{js,ts,tsx,css,json}'",
@@ -102,7 +102,7 @@
     "coveralls": "^3.0.2",
     "cross-env": "^5.2.0",
     "cz-conventional-changelog": "^2.1.0",
-    "html-webpack-plugin": "^3.2.0 || ^4.0.0-beta.4",
+    "html-webpack-plugin": "^4.0.0",
     "husky": "^3.0.2",
     "jest": "^24.8.0",
     "jest-config": "^24.8.0",
@@ -130,8 +130,8 @@
     "webpack": "^4.21.0"
   },
   "peerDependencies": {
-    "html-webpack-plugin": "^3.2.0 || ^4.0.0-beta.4",
-    "webpack": "^4.21.0"
+    "html-webpack-plugin": "^3.2.0 || ^4.0.0 || ^5.0.0",
+    "webpack": "^4.21.0 || ^5.0.0"
   },
   "engines": {
     "node": ">=6.0.0"
