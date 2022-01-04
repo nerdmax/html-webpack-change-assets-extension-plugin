@@ -40,7 +40,6 @@
     "prepublishOnly": "npm run test && npm run build",
     "report-coverage": "cat ./coverage/lcov.info | coveralls",
     "semantic-release": "semantic-release",
-    "semantic-release-prepare": "ts-node tools/semantic-release-prepare",
     "start": "rollup -c rollup.config.ts -w",
     "test": "jest",
     "test:htmlWebpackPlugin3": "yarn add 'html-webpack-plugin@^3.2.0' && yarn test --coverageDirectory='coverage-HtmlWebpackPlugin3'",
