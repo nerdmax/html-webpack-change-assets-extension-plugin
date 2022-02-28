@@ -1,6 +1,5 @@
 # Change assets extension plugin for the HTML Webpack Plugin
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/nerdmax/html-webpack-change-assets-extension-plugin.svg)](https://greenkeeper.io/)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
@@ -10,7 +9,7 @@
 [![Downloads Stats][npm-downloads]][npm-url]
 [![Github stars][github-stars]][github-url]
 [![Github issues][github-issues]][github-issues-url]
-[![Build Status](https://travis-ci.org/nerdmax/html-webpack-change-assets-extension-plugin.svg?branch=master)](https://travis-ci.org/nerdmax/html-webpack-change-assets-extension-plugin)
+![Github Actions workflow](https://github.com/nerdmax/html-webpack-change-assets-extension-plugin/actions/workflows/ci.yml/badge.svg)
 [![codecov](https://codecov.io/gh/nerdmax/html-webpack-change-assets-extension-plugin/branch/master/graph/badge.svg)](https://codecov.io/gh/nerdmax/html-webpack-change-assets-extension-plugin)
 [![Dev Dependencies](https://david-dm.org/nerdmax/html-webpack-change-assets-extension-plugin.svg)](https://david-dm.org/nerdmax/html-webpack-change-assets-extension-plugin?type=dev)
 
