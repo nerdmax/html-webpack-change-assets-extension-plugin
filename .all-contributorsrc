@@ -41,6 +41,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "Pawel-Janik",
+      "name": "Pawel Janik",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2430425?v=4",
+      "profile": "https://github.com/Pawel-Janik",
+      "contributions": [
+        "bug"
+      ]
     }
   ]
 }
